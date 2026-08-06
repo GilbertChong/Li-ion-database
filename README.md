@@ -8,7 +8,7 @@ Li-ion-dataset from online search
 
 ### LFP (LiFePO₄ 磷酸铁锂)
 
-| Dataset | Description | Task | Label available | Paper | Code |
+| Dataset | Description | Task | Data Label or not | Paper | Code |
 | --- | --- | --- | --- | --- | --- |
 | [Lithium-Ion Battery Field Data: 28 LFP battery systems with 8 cells in series, up to 5 years of operation](https://zenodo.org/records/13715694) | Lithium-Ion Battery Field Data: 28 LFP battery systems with 8 cells in series, up to 5 years of operation | Online Health Monitoring and Fault Analysis | | [Gaussian Process-based Online Health Monitoring and Fault Analysis of Lithium-Ion Battery Systems from Field Data Cell Report Physical Science](https://doi.org/10.1016/j.xcrp.2024.102258) | [[Github 1]](https://github.com/JoachimSchaeffer/BattGP) |
 | [MATR(LFP)](https://data.matr.io/1/projects/5c48dd2bc625d700019f3204) | consists of 124 commercial lithium-ion batteries cycled to failure under fast-charging conditions | RUL Prediction, SOH Estimation | | [Data-driven prediction of battery cycle life before capacity degradation](https://www.nature.com/articles/s41560-019-0356-8) | [[Github 4]](https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation) |
