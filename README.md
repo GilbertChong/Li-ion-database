@@ -8,7 +8,7 @@ Li-ion-dataset from online search
 
 ### LFP (LiFePO₄ 磷酸铁锂)
 
-| Dataset | Description | Task | Data Label or not | Paper | Code |
+| Dataset | Description | Task | Data Labeled or not | Paper | Code |
 | --- | --- | --- | --- | --- | --- |
 | [Lithium-Ion Battery Field Data: 28 LFP battery systems with 8 cells in series, up to 5 years of operation](https://zenodo.org/records/13715694) | Lithium-Ion Battery Field Data: 28 LFP battery systems with 8 cells in series, up to 5 years of operation | Online Health Monitoring and Fault Analysis | | [Gaussian Process-based Online Health Monitoring and Fault Analysis of Lithium-Ion Battery Systems from Field Data Cell Report Physical Science](https://doi.org/10.1016/j.xcrp.2024.102258) | [[Github 1]](https://github.com/JoachimSchaeffer/BattGP) |
 | [MATR(LFP)](https://data.matr.io/1/projects/5c48dd2bc625d700019f3204) | consists of 124 commercial lithium-ion batteries cycled to failure under fast-charging conditions | RUL Prediction, SOH Estimation | | [Data-driven prediction of battery cycle life before capacity degradation](https://www.nature.com/articles/s41560-019-0356-8) | [[Github 4]](https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation) |
@@ -25,7 +25,7 @@ Li-ion-dataset from online search
 
 ### NCA (LiNiₓCoᵧAl₁₋ₓ₋ᵧO₂ 镍钴铝酸锂)
 
-| Dataset | Description | Task | Label available | Paper | Code |
+| Dataset | Description | Task | Data Labeled or not | Paper | Code |
 | --- | --- | --- | --- | --- | --- |
 | [Stroebl et al, 2024 (NCA-GrSi)](https://figshare.com/articles/dataset/Multi-Stage_Lithium_Ion_Battery_Aging_Study/25975315) | Comprehensive calendar+cycle aging. Cell: Samsung INR21700-50E; Format: Cylindrical; Batteries: 279; Measurements: Charge-discharge, Pulses | Comprehensive calendar+cycle aging | | [A multi-stage lithium-ion battery aging dataset using various experimental design methodologies](https://www.nature.com/articles/s41597-024-03859-z) | |
 | [Frie et al, 2024 (NCA-GrSi)](https://publications.rwth-aachen.de/record/973674) | Calendar aging. Cell: Samsung INR18650-35E; Format: Cylindrical; Batteries: 54; Measurements: Charge-discharge, Pulses | Calendar aging | | [An Analysis of Calendaric Aging over 5 Years of Ni‐Rich 18650‐Cells with Si/C Anodes](https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/celc.202400020) | |
@@ -38,7 +38,7 @@ Li-ion-dataset from online search
 
 ### LCO (LiCoO₂ 钴锂氧化物)
 
-| Dataset | Description | Task | Label available | Paper | Code |
+| Dataset | Description | Task | Data Labeled or not | Paper | Code |
 | --- | --- | --- | --- | --- | --- |
 | [NASA Randomized Battery Usage(LCO)](https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip) | NASA Battery Data Set. A dataset of lithium-ion battery experiments, including charging and discharging at different temperatures | RUL Prediction, Degradation Modeling | | [A framework for Li-ion battery prognosis based on hybrid Bayesian physics-informed neural networks](https://www.nature.com/articles/s41598-023-33018-0#data-availability) | [[Github 12]](https://github.com/nasa/Li-ion-Battery-Prognosis-Based-on-Hybrid-Bayesian-PINN) |
 | [Zhang et al, 2020 (LCO-Gr)](http://doi.org/10.5281/zenodo.3633835) | Cycle aging, EIS. Cell: Eunicell LR2032; Format: Coin; Batteries: 12 | Cycle aging, EIS | | [Identifying degradation patterns of lithium ion batteries from impedance spectroscopy using machine learning](https://www.nature.com/articles/s41467-020-15235-7) | |
@@ -50,7 +50,7 @@ Li-ion-dataset from online search
 
 ### NMC (LiNiₓMnᵧCo₁₋ₓ₋ᵧO₂ 镍钴锰酸锂)
 
-| Dataset | Description | Task | Label available | Paper | Code |
+| Dataset | Description | Task | Data Labeled or not | Paper | Code |
 | --- | --- | --- | --- | --- | --- |
 | [RADAR4KIT(NMC/C-SiO)](https://radar.kit.edu/radar/en/search?query=Comprehensive+battery+aging+dataset%3A+capacity+and+impedance+fade+measurements+of+a+lithium-ion+NMC%2FC-SiO+cell&_csrf=4f078a89-8f12-487b-9500-6b0b510eac1d) | It contains over 3 billion data points from 228 commercial NMC/C+SiO lithium-ion cells aged for more than a year under a wide range of operating conditions | Aging Analysis, Calendar and Cyclic Aging | | [Comprehensive battery aging dataset: capacity and impedance fade measurements of a lithium-ion NMC/C-SiO cell](https://www.nature.com/articles/s41597-024-03831-x#Sec8) | [[Github 5]](https://github.com/energystatusdata/bat-age-data-scripts) |
 | [SL_Dataset_SECL_INR21700-M50T.zip(NMC)](https://osf.io/8jnr5/overview) | contains second-life experimental data collected at Stanford Energy Control Lab for six NMC cells cycled using residential and commercial synthetic duty cycles. | Second-life Battery Aging Study | | [Second-life lithium-ion battery aging dataset based on grid storage cycling](https://www.sciencedirect.com/science/article/pii/S2352340924010084/pdfft?md5=c609784fde9bd4614d991071b09b780d&pid=1-s2.0-S2352340924010084-main.pdf) | |
@@ -80,13 +80,13 @@ Li-ion-dataset from online search
 
 ### LMO (LiMn₂O₄ 锰酸锂)
 
-| Dataset | Description | Task | Label available | Paper | Code |
+| Dataset | Description | Task | Data Labeled or not | Paper | Code |
 | --- | --- | --- | --- | --- | --- |
 | [Beatty et al, 2025 (LMO/LNO-Gr)](https://repository.lboro.ac.uk/articles/online_resource/Long-Term_Sweat_Testing_Data_for_Second-Life_Batteries/28732490/2) | Cycle aging. Cell: Nissan Leaf; Format: Pouch; Batteries: 6 | Cycle aging | | [Long-Term Sweat Testing Dataset for Second-Life Batteries](https://www.nature.com/articles/s41597-025-05360-7) | |
 
 ### 复合数据 (混合化学体系)
 
-| Dataset | Description | Task | Label available | Paper | Code |
+| Dataset | Description | Task | Data Labeled or not | Paper | Code |
 | --- | --- | --- | --- | --- | --- |
 | [batteryarchive.org(LCO NMC-LCO LFP NCA NMC)](https://www.batteryarchive.org/cycle_list.html?time=0001) | A repository for easy visualization, analysis, and comparison of battery data across institutions. | Data Visualization, Analysis, and Comparison | | [Degradation of Commercial Lithium-Ion Cells as a Function of Chemistry and Cycling Conditions](https://iopscience.iop.org/article/10.1149/1945-7111/abae37) | |
 | [University of Maryland CALCE(LCO LFP NMC)](https://calce.umd.edu/battery-data) | Battery form factors include cylindrical, pouch, and prismatic, and the chemistries include LCO, LFP, and NMC | State Estimation, RUL Prediction, Degradation Modeling | | [Evaluation of the Safety Standards System of Power Batteries for Electric Vehicles in China](https://www.sciencedirect.com/science/article/abs/pii/S0306261923010383?via%3Dihub) | |
@@ -114,7 +114,7 @@ Li-ion-dataset from online search
 
 ### LFP (LiFePO₄ 磷酸铁锂)
 
-| Dataset | Description | Task | Label available | Paper | Code |
+| Dataset | Description | Task | Data Labeled or not | Paper | Code |
 | --- | --- | --- | --- | --- | --- |
 | [Panasonic 18650PF Li-ion Battery Data(NCA)](https://data.mendeley.com/datasets/wykht8y7tg/1) | The included tests were performed at the University of Wisconsin-Madison by Dr. Phillip Kollmeyer. If this data is utilized for any purpose, it should be appropriately referenced. The tests can be used to test Neural Network and Kalman Filter State of Charge algorithms, or to develop battery models, and are intended to be a reference so researchers can compare their algorithm and model performance for a standard data set. | SOC Estimation, Battery Modeling | | [Intrinsic Variability in the Degradation of a Batch of Commercial 18650 Lithium-Ion Cells](https://www.mdpi.com/1996-1073/11/5/1031) | [[Github 20]](https://github.com/infinityengi/li-ion-battery-datasets) |
 | [Fasolato et al, 2025 (LFP-Gr)](https://data.mendeley.com/datasets/ycx459r5c3/2) | BOL. Cell: CALB L148N58A; Format: Prismatic; Batteries: 11 | BOL | | [A dataset for large prismatic lithium-ion battery cells (CALB L148N58A): Comprehensive characterization and real-world driving cycles](https://www.sciencedirect.com/science/article/pii/S2352340925000332) | |
@@ -124,7 +124,7 @@ Li-ion-dataset from online search
 
 ### NCA (LiNiₓCoᵧAl₁₋ₓ₋ᵧO₂ 镍钴铝酸锂)
 
-| Dataset | Description | Task | Label available | Paper | Code |
+| Dataset | Description | Task | Data Labeled or not | Paper | Code |
 | --- | --- | --- | --- | --- | --- |
 | [Faraji-Niri et al, 2023 (NMC811-GrSi)](https://data.mendeley.com/datasets/mn9fb7xdx6/3) | EIS. Cell: LG INR21700-M50; Format: Cylindrical; Batteries: 30; Measurements: Charge-discharge, Pulses, EIS | EIS | | [Accelerated state of health estimation of second life lithium-ion batteries via electrochemical impedance spectroscopy tests and machine learning techniques](https://www.sciencedirect.com/science/article/pii/S2352152X22022848) | |
 | [Kollmeyer & Skells, 2020 (NMC-Gr)](https://data.mendeley.com/datasets/9xyvy2njj3/1) | BOL. Cell: Samsung INR21700 30T; Format: Cylindrical; Batteries: 1 | BOL | | | |
@@ -137,14 +137,14 @@ Li-ion-dataset from online search
 
 ### NMC (LiNiₓMnᵧCo₁₋ₓ₋ᵧO₂ 镍钴锰酸锂)
 
-| Dataset | Description | Task | Label available | Paper | Code |
+| Dataset | Description | Task | Data Labeled or not | Paper | Code |
 | --- | --- | --- | --- | --- | --- |
 | [WMG Calendar Ageing Dataset - LGM50 Commercial Cells (39 Storage Conditions)](https://zenodo.org/records/14577286) | The dataset presents comprehensive calendar aging data collected from commercial LGM50 lithium-ion cells under controlled storage conditions: Storage Temperatures: 0°C, 25°C, and 45°C; State of Charge (SOC): 13 distinct levels per temperature condition; Test Duration: Two-years per condition (on average). The dataset consists of MATLAB (.mat) files containing cell cycling results from Reference Performance Tests (RPTs) conducted throughout the aging study. | Calendar Aging, RPT | | [WMG Calendar Ageing Dataset - LGM50 Commercial Cells](https://doi.org/10.5281/zenodo.14577286) | |
 | [Data from: "Lithium-ion battery degradation: comprehensive cycle ageing data and analysis for commercial 21700 cells"](https://zenodo.org/records/10637534) | These data were generated from battery cell ageing experiments that included break-in cycles and Reference Performance Tests (RPTs), alternating with performance checks and ageing cycles. Each cell was base-cooled at set temperatures using bespoke rigs, with full experimental details available in linked publications. The repository is structured according to each "Experiment," containing folders for "Summary Data," "Processed Timeseries Data," and "Raw Data." | Comprehensive Cycle Ageing, RPT | | [Data from: "Lithium-ion battery degradation...](https://doi.org/10.5281/zenodo.10637534) | |
 
 ### 复合数据 (混合化学体系)
 
-| Dataset | Description | Task | Label available | Paper | Code |
+| Dataset | Description | Task | Data Labeled or not | Paper | Code |
 | --- | --- | --- | --- | --- | --- |
 | [Full factorial design of experiments dataset for parallel-connected lithium-ion cells imbalanced performance investigation(NCA NMC)](https://data.mendeley.com/datasets/zh58byr53c/1) | A total of 54 test conditions were investigated under various operating temperatures, cell-to-cell interconnection resistance, cell chemistry, and aging levels. | Imbalanced Performance Investigation | | [Unveiling the performance impact of module level features on parallel-connected lithium-ion cells via explainable machine learning techniques on a full factorial design of experiments](https://www.sciencedirect.com/science/article/pii/S2352152X24003670/pdfft?md5=6771186db4779d082b7ea8ac52ce3987&pid=1-s2.0-S2352152X24003670-main.pdf) | |
 | [Data-driven capacity estimation of commercial lithium-ion batteries from voltage relaxation(NCA NCM NCM+NCA)](https://doi.org/10.5281/zenodo.6379165) | Experimental cycling data for three commercial 18650 type batteries (NCA, NCM, and NCM+NCA chemistries). The dataset provides cycling data, impedance measurements, and detailed descriptions of voltage relaxation tests. | Capacity Estimation | | [Data-driven capacity estimation of commercial lithium-ion batteries from voltage relaxation](https://www.nature.com/articles/s41560-019-0356-8) | [[Github 13]](https://github.com/Yixiu-Wang/data-driven-capacity-estimation-from-voltage-relaxation) |
@@ -181,14 +181,14 @@ Li-ion-dataset from online search
 
 ### LFP (LiFePO₄ 磷酸铁锂)
 
-| Dataset | Description | Task | Label available | Paper | Code |
+| Dataset | Description | Task | Data Labeled or not | Paper | Code |
 | --- | --- | --- | --- | --- | --- |
 | [Mohtat et al, 2021 (NMC111-Gr)](https://deepblue.lib.umich.edu/data/concern/data_sets/b2773w109) | Cycle aging, swelling. Cell: Custom; Format: Pouch; Batteries: 31; Measurements: Charge-discharge, pulses | Cycle aging, swelling | | [Reversible and irreversible expansion of lithium-ion batteries under a wide range of stress factors](https://iopscience.iop.org/article/10.1149/1945-7111/ac2d3e) | |
 | [Gulsoy et al, 2023 (NMC811-GrSi)](https://data.mendeley.com/datasets/pn5ct66rn5/1) | interal pressure. Cell: LG; Format: Cylindrical; Batteries: 3 | interal pressure | | [In-situ measurement of internal gas pressure within cylindrical lithium-ion cells](https://www.sciencedirect.com/science/article/pii/S0378775323004391) | |
 
 ### 复合数据 (混合化学体系)
 
-| Dataset | Description | Task | Label available | Paper | Code |
+| Dataset | Description | Task | Data Labeled or not | Paper | Code |
 | --- | --- | --- | --- | --- | --- |
 | [Cui et al, 2024 (SC_NMC-Gr)](https://data.matr.io/8/) | Formation, Cycle aging. Cell: LiFun; Format: Pouch; Batteries: 186 | Formation, Cycle aging | | [Systematic feature design for cycle life prediction of lithium-ion batteries during formation](https://www.sciencedirect.com/science/article/pii/S2542435124003532) | |
 | [Weng et al, 2021 (NMC111-Gr)](https://deepblue.lib.umich.edu/data/concern/data_sets/b2773w109) | Formation, Cycle aging. Cell: Custom; Format: Pouch; Batteries: 40 | Formation, Cycle aging | | [Predicting the impact of formation protocols on battery lifetime immediately after manufacturing](https://doi.org/10.1016/j.joule.2021.09.015) | |
@@ -200,6 +200,6 @@ Li-ion-dataset from online search
 
 ### 其他未明确归类的数据集
 
-| Dataset | Description | Task | Label available | Paper | Code |
+| Dataset | Description | Task | Data Labeled or not | Paper | Code |
 | --- | --- | --- | --- | --- | --- |
 | []() | RAGflow frame | | | | [[Github 9]](https://github.com/infiniflow/ragflow) |
